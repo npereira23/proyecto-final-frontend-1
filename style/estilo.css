@@ -1,0 +1,188 @@
+
+*{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-menu{
+    display: none;
+}
+
+.btn-menu{
+    display: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 1rem;
+}
+
+.logo-menu{
+    padding-left: 2rem;
+}
+
+.banner-principal{
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.banner-principal img{
+    height: 340px;
+    
+}
+
+.banner-principal h1{
+    text-align: right;
+    font-size: 2.9rem;
+    margin-top: 7rem;
+    color: #232851;
+}
+
+.banner-principal p{
+    text-align: right;
+    margin-top: 1.5rem;
+    font-weight: bold;
+    font-size: 1.0rem
+}
+
+.btn{
+    background-color: #8B48BF;
+    border: none;
+    border-radius: 40px;
+    height: 3rem;
+    width: 8rem;
+    color: white;
+    margin: 2rem 0;
+    
+}
+
+.diferencias{
+    display: flex;
+    flex-direction: column;
+}
+
+.opciones{
+    background-color: #3CDDF3;
+    color: white;
+    padding: 3rem 1rem;
+}
+
+.opciones h2{
+    font-weight: 700;
+    font-size: 2.3rem;
+    margin-bottom: 3rem;
+
+}
+
+.opciones p{
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
+.razones{
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 0;
+    margin-left: 2.3rem;
+}
+
+.razones-item{
+    display: flex;
+    align-items: center;
+    background-color: #8B48BF ;
+    opacity: 30%;
+    height: 2.8rem;
+}
+
+
+.razones-item h3{
+    background-color: #8B48BF;
+    border: none;
+    border-radius: 40px;
+    height: 2.8rem;
+    width: 4rem;
+    color: white;
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.razones-item p{
+    display: flex;
+    align-items: center;
+    
+    color: black;
+}
+
+.parrafo-razones{
+    color: #B3B2B7;
+    padding: 2rem 0;
+    line-height: 1.7;
+    font-size: 1rem;
+}
+
+.mejores-equipos{
+    display: flex;
+    flex-direction: column;
+    background-color: #3CDDF3;
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-size: 2rem;
+    padding: 2.3rem 2.3rem;
+
+
+}
+
+.mejores-equipos button{
+    background-color: #232851;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #232851;
+    align-items: center;
+
+}
+
+.formulario{
+    order: 1;
+}
+
+.menu-footer{
+    order: 2;
+}
+
+.social-iconos{
+    order: 3;
+}
+
+.logo-footer{
+    order: 4;
+}
+
+.copyright{
+    order: 5;
+}
+
+.formulario form input{
+    height: 2.8rem;
+    border-radius: 40px;
+    border: none;
+    width: 18rem;
+    padding-left: 0.5rem;
+}
+
+.formulario button{
+    width: 4rem;
+    margin-left: 0.5rem;
+}
