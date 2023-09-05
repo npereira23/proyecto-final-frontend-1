@@ -433,4 +433,26 @@ a {
         padding-left: 5rem;
     }
 
+    .mejores-equipos{
+        display: flex;
+        flex-direction: row;
+        background-color:#8B48BF;
+        justify-content: space-evenly;
+        
+    }
+
+    .mejores-equipos h2{
+        font-size: 2rem;
+    }
+
+    .mejores-equipos button{
+        background-color: white;
+        color: #8B48BF;
+    }
+
+    .mejores-equipos button:hover{
+        color: #bf90e2;
+        background-color: rgb(255, 255, 255);
+    }
+
   }
