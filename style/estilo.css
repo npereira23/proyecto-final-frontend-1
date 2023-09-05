@@ -6,11 +6,11 @@
 }
 
 .nav-menu {
-    display: none;
+    visibility: hidden;
 }
 
 .btn-menu {
-    display: none;
+    visibility: hidden;
     cursor : pointer;
 }
 
@@ -18,6 +18,7 @@ header {
     display        : flex;
     justify-content: space-between;
     padding        : 2rem 1rem;
+    height: 6rem;
 }
 
 
@@ -27,7 +28,6 @@ header {
 }
 
 .menu-hamburguesa {
-    padding-right: 4rem;
 }
 
 .banner-principal {
@@ -324,3 +324,113 @@ a {
 .formulario button:hover {
     background: rgba(139, 72, 191, 70%);
 }
+
+@media only screen and (min-width: 1440px){
+
+    .nav-menu{
+        display: flex;
+        width: 36%;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .nav-menu li a{
+        visibility: visible;
+        color: black;
+    }
+
+    .menu-hamburguesa{
+        display: none;
+    }
+
+    header{
+        display: flex;
+        align-items: center;
+    }
+
+    .btn-menu {
+        background-color: #8B48BF;
+        border          : none;
+        border-radius   : 40px;
+        height          : 3rem;
+        width           : 8rem;
+        color           : white;
+        margin          : 0;
+        cursor          : pointer;
+        visibility:      visible;
+    }
+
+    .banner-principal{
+        display: flex;
+        flex-direction: row;
+        margin: 3rem 6rem;
+    }
+
+    .banner-pc-screen{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .banner-pc-screen h1{
+        width: 50%;
+    }
+
+    .banner-pc-screen p{
+        width: 50%;
+        margin-top: 2rem;
+    }
+
+    .banner-principal img{
+        width: 800px;
+        height: auto;
+    }
+
+    .opciones{
+        display: flex;
+        background-color: #8B48BF;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 3rem 9rem;
+    }
+
+    .opciones h2{
+        width: 50%;
+        margin: 0;
+        font-size: 2.5rem;
+    }
+
+    .opciones p{
+        width: 50%;
+        margin: 0;
+        font-size: 1.2rem;
+    }
+
+    .razones{
+        display: flex;
+        background-color: #FAFAFA;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 2rem 2rem;
+    }
+    .razones-item{
+        background-color: transparent;
+        
+    }
+
+    .punto1y2{
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .razones-opciones{
+        width: 600px;
+    }
+
+    .parrafo-razones{
+        width: 550px;
+        padding-left: 5rem;
+    }
+
+  }
