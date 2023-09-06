@@ -577,6 +577,44 @@ a {
         display: flex;
         width: 80%;
         justify-content: flex-end;
+    }
+    .players-container h2{
+        color: #232851;
+    }
 
+
+    .fondo-items{
+        background-color: #FAFAFA;
+    }
+
+    
+
+    .player-two{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .player-two img{
+        width: 4.2rem;
+        height: auto;
+    }
+
+    .player-one{
+        display: flex;
+        flex-direction: column;
+    }
+    .player-one img{
+        width: 4.2rem;
+        height: auto;
+    }
+
+    .player-three{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .player-three img{
+        width: 4.2rem;
+        height: auto;
     }
 }
