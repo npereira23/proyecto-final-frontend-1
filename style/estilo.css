@@ -5,29 +5,29 @@
     box-sizing : border-box;
 }
 
+header {
+    display        : flex;
+    justify-content: space-between;
+    padding        : 2rem 1rem;
+    height         : 6rem;
+}
+
 .nav-menu {
     visibility: hidden;
 }
 
 .btn-menu {
     visibility: hidden;
-    cursor : pointer;
+    cursor    : pointer;
 }
-
-header {
-    display        : flex;
-    justify-content: space-between;
-    padding        : 2rem 1rem;
-    height: 6rem;
-}
-
-
 
 .logo-menu {
     padding-left: 3rem;
+    width: 160px;
 }
 
 .menu-hamburguesa {
+    padding-left: 7rem;
 }
 
 .banner-principal {
@@ -54,6 +54,13 @@ header {
     font-weight: 500;
     font-size  : 1.1rem;
     line-height: 1.5;
+}
+
+.banner-pc-screen {
+    display       : flex;
+    flex-direction: column;
+    align-items   : flex-end;
+
 }
 
 .btn {
@@ -325,27 +332,39 @@ a {
     background: rgba(139, 72, 191, 70%);
 }
 
-@media only screen and (min-width: 1440px){
+@media only screen and (min-width: 1440px) {
 
-    .nav-menu{
-        display: flex;
-        width: 36%;
+    header {
+        display       : flex;
+        align-items   : center;
+        padding       : 5rem 7rem;
+        padding-bottom: 4rem;
+    }
+
+    .logo-menu {
+        width: 200px;
+    }
+
+    .nav-menu {
+        display        : flex;
+        width          : 40%;
         justify-content: space-around;
-        align-items: center;
-    }
-    .nav-menu li a{
-        visibility: visible;
-        color: black;
+        align-items    : center;
     }
 
-    .menu-hamburguesa{
+    .nav-menu li a {
+        visibility: visible;
+        color     : black;
+    }
+
+    .nav-menu li a:hover {
+        color: #242E5299;
+    }
+
+    .menu-hamburguesa {
         display: none;
     }
 
-    header{
-        display: flex;
-        align-items: center;
-    }
 
     .btn-menu {
         background-color: #8B48BF;
@@ -356,103 +375,112 @@ a {
         color           : white;
         margin          : 0;
         cursor          : pointer;
-        visibility:      visible;
+        visibility      : visible;
+        margin-right    : 1rem;
     }
 
-    .banner-principal{
-        display: flex;
+    .banner-principal {
+        display       : flex;
         flex-direction: row;
-        margin: 3rem 6rem;
+        margin        : 3rem 6rem;
+
     }
 
-    .banner-pc-screen{
-        display: flex;
+    .banner-pc-screen {
+        display       : flex;
         flex-direction: column;
-        align-items: flex-end;
+        align-items   : flex-end;
+        width         : 100%;
     }
 
-    .banner-pc-screen h1{
-        width: 50%;
+    .banner-pc-screen h1 {
+        width    : 80%;
+        font-size: 4rem;
+        margin   : 0;
     }
 
-    .banner-pc-screen p{
-        width: 50%;
+    .banner-pc-screen p {
+        width     : 70%;
         margin-top: 2rem;
+
     }
 
-    .banner-principal img{
-        width: 800px;
+    .banner-principal img {
+        width : 1700px;
         height: auto;
     }
 
-    .opciones{
-        display: flex;
+
+    .opciones {
+        display         : flex;
         background-color: #8B48BF;
-        flex-direction: row;
-        justify-content: space-evenly;
-        padding: 3rem 9rem;
+        flex-direction  : row;
+        justify-content : space-evenly;
+        align-items: center;
+        /* padding         : 3rem 9rem; */
     }
 
-    .opciones h2{
-        width: 50%;
-        margin: 0;
-        font-size: 2.5rem;
+    .opciones h2 {
+        width    : 40%;
+        margin   : 0;
+        font-size: 3rem;
     }
 
-    .opciones p{
-        width: 50%;
-        margin: 0;
+    .opciones p {
+        width    : 40%;
+        margin   : 0;
         font-size: 1.2rem;
     }
 
-    .razones{
-        display: flex;
+    .razones {
+        display         : flex;
         background-color: #FAFAFA;
-        justify-content: center;
-        align-items: center;
-        margin: 0;
-        padding: 2rem 2rem;
-    }
-    .razones-item{
-        background-color: transparent;
-        
+        justify-content : center;
+        align-items     : center;
+        margin          : 0;
+        padding         : 2rem 2rem;
     }
 
-    .punto1y2{
-        display: flex;
+    .razones-item {
+        background-color: transparent;
+
+    }
+
+    .punto1y2 {
+        display       : flex;
         flex-direction: row;
 
     }
 
-    .razones-opciones{
+    .razones-opciones {
         width: 600px;
     }
 
-    .parrafo-razones{
-        width: 550px;
+    .parrafo-razones {
+        width       : 550px;
         padding-left: 5rem;
     }
 
-    .mejores-equipos{
-        display: flex;
-        flex-direction: row;
-        background-color:#8B48BF;
-        justify-content: space-evenly;
-        
+    .mejores-equipos {
+        display         : flex;
+        flex-direction  : row;
+        background-color: #8B48BF;
+        justify-content : space-evenly;
+
     }
 
-    .mejores-equipos h2{
+    .mejores-equipos h2 {
         font-size: 2rem;
     }
 
-    .mejores-equipos button{
+    .mejores-equipos button {
         background-color: white;
-        color: #8B48BF;
+        color           : #8B48BF;
     }
 
-    .mejores-equipos button:hover{
-        color: #bf90e2;
+    .mejores-equipos button:hover {
+        color           : #bf90e2;
         background-color: rgb(255, 255, 255);
     }
 
-  }
+}
