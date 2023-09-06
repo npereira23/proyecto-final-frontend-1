@@ -464,17 +464,24 @@ a {
         display         : flex;
         flex-direction  : row;
         background-color: #8B48BF;
-        justify-content : space-evenly;
+        justify-content : space-between;
+        padding: 3rem;
+        padding-left: 10rem;
+        padding-right: 20rem;
 
     }
 
     .mejores-equipos h2 {
-        font-size: 2rem;
+        font-size: 2.9rem;
+        width: 40%;
+        text-align: start;
     }
 
     .mejores-equipos button {
         background-color: white;
         color           : #8B48BF;
+        width: 10rem;
+        font-size: 1.05rem;
     }
 
     .mejores-equipos button:hover {
