@@ -230,7 +230,7 @@ header {
     line-height: 1.4;
 }
 
-.two {
+.player:nth-child(2) {
     display: none;
 }
 
@@ -616,5 +616,38 @@ a {
     .player-three img{
         width: 4.2rem;
         height: auto;
+        
+    }
+
+    .player:nth-child(2){
+        display: flex;
+        text-align: center;
+    }
+    
+
+   
+    
+    .three {
+        display: flex;
+        text-align: center;
+    }
+
+    .players-container{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 9rem;
+    }
+
+    .players-container h2{
+        margin-top: 6rem;
+        margin-bottom: 7rem;
+    }
+
+    .players{
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        background-color: #FAFAFA;
+        margin-bottom: 2rem;
     }
 }
