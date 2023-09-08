@@ -1,3 +1,8 @@
+## Descripción de proceso
+
+Nos reunimos en la tarde y los dos avanzamos en la estructura de la página, y la semántica, luego en el CSS trabajamos en el navbar, el menú superior, le pusimos colores y configuramos los estilos de fuente como configuración principal. Luego seguimos con la imágen y el texto, además del ítems sobre el producto, agregamos a las personas con su respectiva imágen y descripción, además de los botones en cada sección correspondiente. y finalizamos con el especto visual del footer, le agreamos colores a las fuentes y el formulario, además de convertir el logotipo a PNG (con el canal de transparencia), para que el texto se vea blanco. Implementamos el modelo mobile first, para que fuese más sensillo luego adaptar el sitio a vista de pantalla de PC con los media queries.
+
+
 ## El reto
 
 Su desafío es crear esta página de destino y hacer que se parezca lo más posible al diseño.
